@@ -1,0 +1,261 @@
+
+
+/* about me page styling */
+
+#aboutme {position:absolute;
+	 height: 55px;
+	width: 470px;
+	left:40px;
+	font-size:30px;
+	font-weight: bold;
+	top:25px;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd; 
+	font-family: Georgia;
+	color:#4aaaa5
+}
+
+/*make pages all have the same lenght between header bar*/
+.maintext{ position:relative;
+margin-top:60px;
+margin-left:100px;
+margin-right:400px;
+width:550px;
+height:650px;
+z-index: -1;
+border-width:1px;
+border-style: solid;
+border-color: #dddddd;
+}
+
+/* I couldn't figure out how to 
+float this properly so that the image and words dont overlap*/
+
+#pMe{position:relative;
+float:left;
+top:100px;
+left:40px;
+}
+
+#aboutmep{position:relative;
+	top:100px;
+	left:48px;
+margin-right:100px;
+font-family: arial;
+}
+
+/*portfolio page styling */
+
+#port{position:absolute;
+	height: 60px;
+	width: 535px;
+	left:30px;
+	top:30px;
+	font-size: 30px;
+	font-weight: bold;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd; 
+	font-family: Georgia;
+	color:#4aaaa5;
+}
+
+.portbody{position:relative;
+	margin-top:75px;
+margin-left:100px;
+margin-right:350px;
+padding:500px, 1000px, 500px, 1000px;
+height:750px;
+width:600px;
+z-index: -1;
+border-width:1px;
+ border-style: solid;
+ border-color: #dddddd;
+}
+
+#p1{position:absolute;
+	left:30px;
+	top:120px;
+}
+
+#p2{position:absolute;
+	right:30px;
+	top:120px;
+}
+
+#p3{position:absolute;
+	bottom:170px;
+	left:30px;
+
+}
+
+#p4{position:absolute;
+	bottom:170px;
+right:30px;
+}
+
+/* contact page styling */
+
+
+.contactbox{position:absolute;
+	height: 75px;
+	width: 420px;
+	left:40px;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+}
+
+#contact{position: absolute;
+	
+margin-top: 25px; 
+	font-family: Georgia;
+	color:#4aaaa5;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.userinfo{position:relative;
+margin-right: 300px;
+margin-left: 100px;
+margin-top: 80px;
+border-width:1px;
+ border-style: solid;
+ border-color: #dddddd;
+ width:500px;
+ height:800px;
+
+}
+
+.userinfo2{position: absolute;
+	top:100px;
+left:40px;
+font-family: arial;
+}
+
+/* styling across pages */
+
+.connectcontainer{position:relative;
+right:24px;
+float:right;
+bottom:25px;
+width:230px;
+height:175px;
+border-width:1px;
+ border-style: solid;
+ border-color: #dddddd;
+margin-top: 100px;
+}
+
+.connect3{position:absolute;
+	top:60px;
+	left:-2px;
+}
+
+.connect{position:relative;
+top:25px;
+left:35px;
+font-size:smaller;
+font-weight: bold;
+color:#4aaaa5;
+border-bottom-color:#dddddd;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+width:160px;
+}
+
+.container-fluid{position:absolute;
+	margin-left:100px;
+	height:15%;
+}
+
+.header{position:absolute;
+	height:83px;
+	width:275px;
+	margin-left:100px;
+	background-color: #4aaaa5;
+	font-size: 32px;
+	font-family:Georgia;
+	text-align: center;
+}
+
+.headtext{color:#FFFFFF;
+	position:absolute;
+	bottom:24px;
+	left:25px;
+
+}
+
+
+.contact{position:relative;
+	top:28px;
+	left:65px;
+	border-color: #dddddd;
+    border-right-style: solid;
+    border-width: 1px;
+    font-size: 18px;
+
+}
+/*still need to reposition 
+these a bit and fix ordering on contact and index page*/
+.about{position:relative;
+	top:28px;
+	border-color: #dddddd;
+    border-right-style: solid;
+    border-width: 1px;
+    left:10px;
+    font-size: 18px;
+
+}
+
+.portfolio{position:relative;
+	left:35px;
+	top:28px;
+	font-size: 18px;
+	border-color: #dddddd;
+    border-right-style: solid;
+    border-width: 1px;
+}
+
+li { float:right;
+    display:inline;
+    width:80px;
+    padding: 0px;
+    list-style-type: none;
+
+} 
+
+.mainheadercontainer{
+position:relative;
+height:83px;
+width:1150px;
+border-width:3px;
+ border-bottom-style: solid;
+ border-color: #dddddd;
+}
+
+/*also couldn't figure out how to get my background to work*/
+body {
+    background-image:url(/assets/images/pink_rice.png);
+}
+
+.footer{position: fixed;
+	bottom:0px;
+	width:1250px;
+	height:80px;
+	background-color:#666666;
+	border-top-style:solid;
+	border-color:#4aaaa5;
+	border-width:5px;
+
+}
+
+#footertext{float: right;
+	margin-right:300px;
+	margin-top:20px;
+	font-size: 8px;
+	color:#ffffff;
+}
+
+{}
